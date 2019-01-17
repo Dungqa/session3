@@ -1,0 +1,157 @@
+#info {
+    background:#333;
+    opacity:0.8;
+    position: absolute;
+    top:5px;
+    right:5px;
+    width:280px;
+    color: #575356;
+    border-radius: 5px;
+    z-index:10
+}
+
+#info p {
+    padding:0 10px;
+}
+
+#info a{ color:#f9ba33;}
+
+#container{ display:block; width:900px; margin:0 auto; }
+
+body{
+    font-family: 'Droid Sans', serif;
+    color:#444;
+    font-size:1.6em;
+}
+.Checkbox
+{
+    width: 120px;
+    height: 40px;
+    margin: 20px 50px;
+    position: relative;
+}
+.Checkbox div
+{
+    width: 100%;
+    height:100%;
+    background: #848484;
+    border-radius: 50px;
+    position: relative;
+    top:-30px;
+}
+.Checkbox label
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    z-index: 1;
+    left:-8px;
+    background: #a6a6a6;
+}
+.Checkbox input[type=checkbox]:checked ~ div
+{
+    background: #8ce96e;
+}
+
+.Checkbox input[type=checkbox]:checked ~ label {
+    left: 85px;
+    background: #4c8c46;
+}
+.Checkbox2
+{
+    width: 120px;
+    height: 40px;
+    margin: 20px 50px;
+    position: relative;
+}
+.Checkbox2 div
+{
+    width: 100%;
+    height:100%;
+    background: #848484;
+    border-radius: 50px;
+    position: relative;
+    top:-30px;
+}
+.Checkbox2 label
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    z-index: 1;
+    left: -8px;
+    background: #a6a6a6;
+}
+.Checkbox2 input[type=checkbox]:checked ~ div
+{
+    background: #be5c55;
+}
+
+.Checkbox2 input[type=checkbox]:checked ~ label {
+    left: 85px;
+    background: #884444;
+}
+.Checkbox1
+{
+    width: 120px;
+    height: 40px;
+    margin: 20px 50px;
+    position: relative;
+}
+.Checkbox1 div
+{
+    width: 100%;
+    height:100%;
+    background: #848484;
+    border-radius: 50px;
+    position: relative;
+    top:-30px;
+}
+.Checkbox1 label
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    z-index: 1;
+    left: -8px;
+    background: #a6a6a6;
+}
+.Checkbox1 input[type=checkbox]:checked ~ div
+{
+    background: #6fa5e9;
+}
+
+.Checkbox1 input[type=checkbox]:checked ~ label {
+    left: 85px;
+    background: #4b6796;
+}

@@ -1,0 +1,11 @@
+table{
+    background-color: #808080;
+    margin: auto;
+}
+#Result{
+    width: 144px;
+}
+.btn{
+    width: 34px;
+    height: 32px;
+}

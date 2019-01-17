@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    <img alt="" src="https://demo.codegym.vn/8/puzzlegame/img/panda_swap_part1x1.jpg"
+         style="height: 85px; width: 198px" id="imgClickAndChange" onclick="changeImage()"  />
+</p>
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://demo.codegym.vn/8/puzzlegame/img/panda_swap_part1x1.jpg")
+        {
+            document.getElementById("imgClickAndChange").src = "https://demo.codegym.vn/8/puzzlegame/img/funny-cat1_part1x1.jpg";
+        }
+        else
+        {
+            document.getElementById("imgClickAndChange").src = "https://demo.codegym.vn/8/puzzlegame/img/panda_swap_part1x1.jpg";
+        }
+    }
+</script>
+</body>
+</html>
